@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Ich kenne mich aus " + checkerstatus);
 
         boolean term1 = (1>3 && (!(3<5)))||2==4;    // term1 ist die vorletzte Rechnung (Übung 3) auf der Übungsslide 22
-        System.out.println("Der term 1 hat den boolean " + term1);
+        System.out.println("Der term 1 ist " + term1);
 
         boolean teil1 = 1>3;        // alternativer Lösungsweg indem der term1 in Teile zerlegt wird und dann die Teile verglichen werden
         boolean teil2 = (!(3<5));
